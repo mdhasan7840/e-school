@@ -1,0 +1,138 @@
+/* ========Responsive section start from here========= */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .header{
+        width:100%;
+        padding:10px !important;
+       
+    }
+    .banner-sec h1{
+        font-size:30px !important;
+        line-height:40px !important;
+    }
+    .banner-sec p{
+        padding:0px !important;
+    }
+    .banner-sec .banner-sec-rht{
+        width:100%;
+        overflow:hidden !important;
+    }
+    .banner-sec .banner-sec-rht img{
+        width:70% !important;
+        margin:20px auto;
+    }
+
+    .courses .course-head h2{
+        font-size:30px !important;
+    }
+    .courses .card-group .card .card-img-top{
+        width:80% !important;
+        height:auto;
+
+    }
+    .courses .card-group .card .card-title{
+        font-size:20px !important;
+    }
+    .courses .card-group .card .card-card-flex > li{
+        font-size:10px;
+    }
+    .test-head h2{
+        font-size:30px !important;
+    }
+    /* testimonial */
+    .testimonial .card{
+        text-align:center;
+
+    }
+
+
+
+    /* code ends here */
+  }
+  /* =================== */
+  /* =================== */
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    .banner-sec .banner-sec-rht img{
+        width:80% !important;
+        margin:20px auto !important;
+    }
+    .testimonial .card{
+        text-align:center;
+    }
+    
+
+    /* code ends here */
+  }
+  /* ==================== */
+  /* ==================== */
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    .banner-sec h1{
+        font-size:30px !important;
+        line-height:40px !important;
+    }
+    .banner-sec p{
+        padding-right:10px !important;
+    }
+    .banner-sec .banner-sec-rht img{
+        width:80% !important;
+    }
+    .about-sec .inner-about img{
+        width:60px !important;
+    }
+    .about-sec .inner-about h4{
+        font-size:16px !important;
+    }
+    .about-sec .inner-about p{
+        font-size:12px !important;
+    }
+    .courses .card-group .card .card-img-top{
+        width:150px !important;
+        height:100px !important; 
+    }
+    .courses .card-group .card .card-title{
+        font-size:16px !important;
+    }
+    .card-body{
+        padding:5px !important;
+    }
+    .courses .card-group .card .card-card-flex > li{
+        font-size:10px;
+    }
+   
+    
+    /* code ends here */
+  }
+  /* ================== */
+  /* ================== */
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+   
+    
+    /* code ends here */
+  }

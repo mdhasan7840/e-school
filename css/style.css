@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    line-height:24px;
+    box-sizing:border-box;
+}
+/* header section start from here */
+.header{
+    width:100%;
+    background:#F0FFF0;
+}
+.header .navbar .navbar-brand img{
+    width:150px;
+}
+.header .bg-light{
+    background:#F0FFF0 !important;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    color:#000;
+}
+.header .navbar .btn{
+    border:1px solid #21B573;
+    background:#21B573;
+    border-radius:30px;
+    color:#fff;
+}
+/* banner section */
+.banner-sec{
+    margin-top:100px;
+}
+.banner-sec h6{
+    font-size:15px;
+    font-weight:500;
+    color:#FD511A;
+}
+.banner-sec h1{
+    font-size:40px;
+    line-height:60px;
+    color:#000;
+    font-weight:700;
+}
+.banner-sec h1 > .ban-txt-col{
+    color:#21B573;
+}
+.banner-sec p{
+    color:#6C6B6B;
+    padding-right:150px;
+}
+.banner-sec .btn{
+    background:#21B573;
+    border:1px solid #21B573;
+    padding:10px 20px;
+    color:#fff;
+    border-radius:30px;
+}
+.banner-sec .banner-sec-rht img{
+    width:100%;
+}
+/* header section ends from here */
+
+/* About our(books)institute section start from here */
+.about-sec {
+    width:100%;
+    margin:100px 0px;
+}
+.about-sec  .inner-about{
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+
+}
+.about-sec  .inner-about:hover{
+    box-shadow:5px 5px 20px #ccc;
+}
+.about-sec  .inner-about img{
+    width:80px;
+    margin:15px 0px;
+}
+.about-sec  .inner-about h4{
+    font-size:24px;
+    font-weight:500;
+    color:#413960;
+}
+.about-sec  .inner-about p{
+    font-size:16px;
+    color:#585859;
+}
+/* About our institute section ends from here */
+
+/* Courses section start from here  */
+.courses{
+    width:100%;
+    margin:100px 0px;
+}
+.courses .course-head{
+    text-align:center;
+    margin:40px 0px;
+}
+.courses .course-head h2{
+    font-size:40px;
+    font-weight:600;
+    color:#413960;
+}
+.courses .card-group .card{
+    border:none !important;
+    margin:20px;
+    padding:20px 0px;
+    box-shadow:5px 5px 20px #ccc;
+    
+}
+.courses .card-group .card .card-img-top{
+    width:280px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin:10px auto;
+}
+.courses .card-group .card .card-title{
+    font-size:24px;
+    font-weight:500;
+    color:#413960;
+}
+.courses .card-group .card .card-text{
+    color:585859;
+    font-size:16px;
+}
+.courses .card-group .card  .btn{
+    border:1px solid #21B573;
+    background:#21B573;
+    border-radius:30px;
+    padding:10px 20px;
+    color:#fff;
+}
+.courses .card-group .card  .card-card-flex{
+    list-style:none;
+    justify-content:space-between;
+    margin:20px 0px;
+    
+}
+.courses .card-group .card  .card-card-flex > li{
+    margin-left:-20px;
+}
+.courses .card-group .card  .card-card-flex > li > i{
+    color:#585859;
+    font-size:10px;
+}
+/* Courses section ends from here  */
+
+/* testimonial section start from here */
+.testimonial{
+    width:100%;
+    margin:50px 0px;
+}
+.testimonial .test-head{
+    text-align:center;
+    margin:20px 0px;
+}
+.test-head h2{
+    font-size:40px;
+    font-weight:600;
+    color:#413960;
+}
+.testimonial .card{
+    border:none !important;
+    margin:10px auto;
+    
+}
+.testimonial .card .img-fluid{
+    width:100px;
+}
+.testimonial .card .card-body .card-text{
+    color:#585859;
+}
+/* testimonial section ends from here */
+
+/* footer section start from here */
+.footer{
+    width:100%;
+    background:#282531;
+    padding:40px 0px;
+
+}
+.footer .first-para{
+    color:#d8d8da;
+    font-weight:300;
+}
+.footer h4{
+    color:#d8d8da;
+    font-weight:500;
+}
+.footer ul{
+    list-style:none;
+}
+.footer ul li{
+    color:#d8d8da;
+    margin-left:-25px;
+}
+.footer .copyright{
+    text-align:center;
+    margin-top:20px;
+}
+.footer .copyright p{
+    color:#d8d8da;
+}
+/* footer section ends from here */
+
